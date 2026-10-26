@@ -1,0 +1,22 @@
+[project]
+name = "00-python-katas"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ricky6200", email = "83008870+Ricky6200@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+00-python-katas = "00_python_katas:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
